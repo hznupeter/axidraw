@@ -1,7 +1,8 @@
 # axidraw 画图机器人
+![image](https://github.com/hznupeter/axidraw/blob/master/pic/axidraw-1.jpg)
 
 ## 3D打印件
-打印3d_file 目前下的全部模型，其中x_motor_mount.stl需要打印2份。
+打印3d_file 目录下的全部模型，其中x_motor_mount.stl需要打印2份。
 
 ## 硬件
 - arduino UNO 1块
@@ -37,9 +38,11 @@
 用于给arduino UNO烧写该库。
 
 - [Inkscape](https://inkscape.org/en/)
+
 一个跨平台的开源软件，利用它的扩展功能可以生成G-code。
 
--[CNCjs](https://github.com/cncjs/cncjs/releases/latest)
+- [CNCjs](https://github.com/cncjs/cncjs/releases/latest)
+
 一款CNC控制软件，支持中文，可以方便地将G-code传入到arduino UNO并执行程序。当然也可以使用其他符合grbl规范的软件，如[bCNC](https://github.com/vlachoudis/bCNC),[EleksCAM](http://forum.eleksmaker.com/category/9/elekscam)等。
 
 ## 组装
