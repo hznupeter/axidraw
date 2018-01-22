@@ -56,4 +56,4 @@
 
 ### 机械结构
 
-
+![image](https://github.com/hznupeter/axidraw/blob/master/pic/belt-route.jpg)
