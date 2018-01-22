@@ -4,28 +4,29 @@
 打印3d_file 目前下的全部模型，其中x_motor_mount.stl需要打印2份。
 
 ## 硬件
-- arduino UNO
-- CNC shield 雕刻机扩展板
-- A4988驱动芯片 3片
-- 12V 3A电源
-- 28BYJ-48 5V 步进电机
-- Nema42步进电机 2个
+- arduino UNO 1块
+- CNC shield v3雕刻机扩展板 1片
+- A4988驱动芯片(带散热片) 3片
+- 12V 3A监控电源 1个
+- 28BYJ-48 5V 步进电机 1个
+- 42步进电机 2个
+- 短接帽 10个
 - M3 8mm 螺丝 2个
 - M3 20mm 螺丝10个
 - M3 30mm 螺丝8个
-- M3螺帽22个
-- M10螺帽8个
+- M3螺帽 22个
+- M10螺帽 8个
 - 直线光轴8mm*400mm 2根
 - 直线光轴8mm*300mm 2根
 - 直线光轴6mm*100mm 2根
 - LM6UU直线轴承 2个
 - LM8UU直线轴承 8个
-- 16齿5mm同步轮 2个
-- 16齿3mm同步轮1个
-- 无齿轮 3mm 4个
-- GT2同步带 2米
+- 2GT-16齿同步轮 内孔5mm 含顶丝 2个
+- 16齿同步轮 被动轮 内孔3mm 1个
+- 16齿 无齿轮 被动轮 内孔3mm 4个
+- 2GT同步带 带宽6mm 2米
 
-##软件
+## 软件
 
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
@@ -35,7 +36,21 @@
 
 用于给arduino UNO烧写该库。
 
+- [Inkscape](https://inkscape.org/en/)
+一个跨平台的开源软件，利用它的扩展功能可以生成G-code。
 
-##组装
+-[CNCjs](https://github.com/cncjs/cncjs/releases/latest)
+一款CNC控制软件，支持中文，可以方便地将G-code传入到arduino UNO并执行程序。当然也可以使用其他符合grbl规范的软件，如[bCNC](https://github.com/vlachoudis/bCNC),[EleksCAM](http://forum.eleksmaker.com/category/9/elekscam)等。
+
+## 组装
+
+### 电路部分
+1. 将CNC扩展板安装在UNO上。
+2. 在CNC扩展板的A4988驱动座X、Y、Z中间安装3个短接帽。
+3. 将A4988安装到驱动座上。
+4. 两个42电机分别连接到X和Y座。
+5. 28BYJ-48 步进电机连接到Z方向。该步进电机有5根线，可以剪掉红色线，
+
+### 机械结构
 
 
