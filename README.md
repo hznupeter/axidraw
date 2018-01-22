@@ -4,8 +4,8 @@
 打印3d_file 目前下的全部模型，其中x_motor_mount.stl需要打印2份。
 
 ## 硬件
--arduino UNO
--CNC shield 雕刻机扩展板
+- arduino UNO
+- CNC shield 雕刻机扩展板
 -A4988驱动芯片*3
 -12V 3A电源
 -28BYJ-48 5V 步进电机
