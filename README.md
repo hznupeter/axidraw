@@ -65,4 +65,3 @@
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic3.jpg)
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic4.jpg)
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic5.jpg)
-![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic6.jpg)
