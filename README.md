@@ -57,9 +57,11 @@
 
 ### 机械结构
 同步带连接采用coreXY结构，具体如下图：
+
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/corexy.jpg)
 
 图片参考
+
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic1.jpg)
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic2.jpg)
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic3.jpg)
