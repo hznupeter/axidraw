@@ -56,5 +56,5 @@
 6. CNC扩展板的电源接口接12V3A的监控电源。
 
 ### 机械结构
-
-![image](https://github.com/hznupeter/axidraw/blob/master/pic/belt-route.jpg)
+同步带连接采用coreXY结构，具体如下图：
+![image](https://github.com/hznupeter/axidraw/blob/master/pic/corexy.jpg)
