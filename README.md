@@ -60,6 +60,8 @@
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/corexy.jpg)
 
+视频参考
+http://download.17maker.org/axidraw_1.mp4
 图片参考
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic1.jpg)
@@ -67,3 +69,4 @@
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic3.jpg)
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic4.jpg)
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic5.jpg)
+### 软件设置
