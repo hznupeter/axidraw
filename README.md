@@ -3,6 +3,7 @@
 
 ## 3D打印件
 打印3d_file 目录下的全部模型，其中x_motor_mount.stl需要打印2份。
+模型文件来源https://www.thingiverse.com/thing:1514145
 
 ## 硬件
 - arduino UNO 1块
@@ -60,13 +61,22 @@
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/corexy.jpg)
 
-视频参考
+#### 视频参考
 http://download.17maker.org/axidraw_1.mp4
-图片参考
+#### 图片参考
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic1.jpg)
+CNC扩展板的接线。
+
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic2.jpg)
+两个电机的安装
+
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic3.jpg)
+光轴的连接，其中同步带不容易扎紧，可以配几个皮带扭簧使皮带绷紧。
+
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic4.jpg)
+
+
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic5.jpg)
+握笔结构，握笔部分的步进电机与CNC扩展板的Z轴相连。
 ### 软件设置
