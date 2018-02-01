@@ -97,7 +97,10 @@ CNC扩展板的接线。
 //#define HOMING_CYCLE_1 ((1<<X_AXIS)|(1<<Y_AXIS))  // OPTIONAL: Then move X,Y at the same time.
 ```
 在154行附近取消下面一行定义的注释，使之生效。
-
+```C
  #define COREXY // Default disabled. Uncomment to enable.
+ ```
+ 修改完成之后，保存config.h文件，打开arduino IDE，找到 文件-示例-grbl-grblupload。打开，并上传到arduino中。
+ 上传完成后，打开串口监视器，将波特率设为115200，可以看到arduino会传回一些数据，这些是配置信息。
 ### 软件设置
 
