@@ -79,4 +79,25 @@ CNC扩展板的接线。
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic5.jpg)
 握笔结构，握笔部分的步进电机与CNC扩展板的Z轴相连。
+
+### 固件烧写
+- 下载[grbl库](https://github.com/grbl/grbl)并解压
+将grbl文件夹放到你的arduino库目录中（库目录一般为C:\Users\Administrator\Documents\Arduino\libraries。具体可以通过文件-首选项-项目文件夹位置 查到）。
+
+- 修改grbl配置文件
+由于本机器采用的是coreXY结构，要修改grbl的配置文件。找到config.h
+在75行附近位置增加以下两行定义
+```C
+ #define HOMING_CYCLE_0 (1<<X_AXIS) 
+ #define HOMING_CYCLE_1 (1<<Y_AXIS)
+```
+并注释掉下面的两行定义
+``` C
+//#define HOMING_CYCLE_0 (1<<Z_AXIS)                // REQUIRED: First move Z to clear workspace.
+//#define HOMING_CYCLE_1 ((1<<X_AXIS)|(1<<Y_AXIS))  // OPTIONAL: Then move X,Y at the same time.
+```
+在154行附近取消下面一行定义的注释，使之生效。
+
+ #define COREXY // Default disabled. Uncomment to enable.
 ### 软件设置
+
