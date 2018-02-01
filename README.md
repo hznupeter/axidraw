@@ -101,6 +101,10 @@ CNC扩展板的接线。
  #define COREXY // Default disabled. Uncomment to enable.
  ```
  修改完成之后，保存config.h文件，打开arduino IDE，找到 文件-示例-grbl-grblupload。打开，并上传到arduino中。
+
  上传完成后，打开串口监视器，将波特率设为115200，可以看到arduino会传回一些数据，这些是配置信息。
+
 ### 软件设置
 
+
+下载[CNCjs](https://github.com/cncjs/cncjs/releases/latest)软件并安装。
