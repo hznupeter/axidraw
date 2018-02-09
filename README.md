@@ -65,6 +65,9 @@
 http://download.17maker.org/axidraw_1.mp4
 #### 图片参考
 
+![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic0.jpg)
+CNC扩展板安装细分短接帽。
+
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic1.jpg)
 CNC扩展板的接线。
 
