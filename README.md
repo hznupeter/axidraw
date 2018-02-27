@@ -70,18 +70,22 @@ http://download.17maker.org/axidraw_1.mp4
 CNC扩展板安装细分短接帽。
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic1.jpg)
+
 CNC扩展板的接线。
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic2.jpg)
+
 两个电机的安装
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic3.jpg)
+
 光轴的连接，其中同步带不容易扎紧，可以配几个皮带扭簧使皮带绷紧。
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic4.jpg)
 
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic5.jpg)
+
 握笔结构，握笔部分的步进电机与CNC扩展板的Z轴相连。
 
 ### 固件烧写
