@@ -66,6 +66,7 @@ http://download.17maker.org/axidraw_1.mp4
 #### 图片参考
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic0.jpg)
+
 CNC扩展板安装细分短接帽。
 
 ![image](https://github.com/hznupeter/axidraw/blob/master/pic/pic1.jpg)
@@ -111,3 +112,4 @@ CNC扩展板的接线。
 
 
 下载[CNCjs](https://github.com/cncjs/cncjs/releases/latest)软件并安装。
+将写字机用USB线连接到电脑上。
